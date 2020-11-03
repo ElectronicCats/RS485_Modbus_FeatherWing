@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "RS485"
+Date "2020-11-03"
+Rev "1.0"
+Comp "Electronic Cats"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -490,7 +490,7 @@ VBAT
 Text Label 9950 1400 2    50   ~ 0
 EN
 Text Label 9950 1500 2    50   ~ 0
-VUSB
+VBUS
 Text Label 9950 1600 2    50   ~ 0
 D6
 Text Label 9950 1700 2    50   ~ 0
@@ -502,9 +502,9 @@ D3
 Text Label 9950 2000 2    50   ~ 0
 D2
 Text Label 9950 2100 2    50   ~ 0
-D1
+D1TX
 Text Label 9950 2200 2    50   ~ 0
-D0
+D0RX
 Text Label 9950 2300 2    50   ~ 0
 SCL
 Text Label 9950 2400 2    50   ~ 0
@@ -593,4 +593,17 @@ Wire Wire Line
 	8550 1200 8900 1200
 Wire Notes Line
 	8350 500  8350 3750
+Text Label 2490 3000 0    50   ~ 0
+DI
+Wire Wire Line
+	2320 3000 2490 3000
+Connection ~ 2320 3000
+Text Notes 530  620  0    50   ~ 0
+INPUTS\n
+Text Notes 2940 580  0    50   ~ 0
+RS485
+Text Notes 6780 670  0    50   ~ 0
+OUTPUTS\n
+Text Notes 8480 590  0    50   ~ 0
+PINS
 $EndSCHEMATC
