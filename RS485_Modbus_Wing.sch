@@ -396,7 +396,7 @@ U 1 1 5FA0A2EE
 P 7410 2040
 F 0 "J3" H 7490 2032 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 7490 1941 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 7410 2040 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7410 2040 50  0001 C CNN
 F 3 "~" H 7410 2040 50  0001 C CNN
 	1    7410 2040
 	1    0    0    -1  
