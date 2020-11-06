@@ -488,15 +488,15 @@ EN
 Text Label 9950 1500 2    50   ~ 0
 VBUS
 Text Label 9950 1600 2    50   ~ 0
-D6
+D13
 Text Label 9950 1700 2    50   ~ 0
-D5
+D12
 Text Label 9950 1800 2    50   ~ 0
-D4
+D11
 Text Label 9950 1900 2    50   ~ 0
-D3
+D10
 Text Label 9950 2000 2    50   ~ 0
-D2
+D9
 Text Label 9950 2300 2    50   ~ 0
 SCL
 Text Label 9950 2400 2    50   ~ 0
@@ -599,9 +599,9 @@ OUTPUTS\n
 Text Notes 8480 590  0    50   ~ 0
 PINS
 Text Label 9950 2100 2    50   ~ 0
-D1
+D6
 Text Label 9950 2200 2    50   ~ 0
-D0
+D5
 Text Label 1440 3200 2    50   ~ 0
 TX
 Text Label 870  1870 2    50   ~ 0
