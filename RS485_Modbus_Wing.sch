@@ -135,8 +135,6 @@ Wire Wire Line
 	1870 1870 1870 1850
 Wire Wire Line
 	1870 1650 1870 1530
-Text Label 870  1870 2    50   ~ 0
-D0RX
 Wire Wire Line
 	870  1870 970  1870
 Wire Wire Line
@@ -196,8 +194,6 @@ Wire Wire Line
 	1130 3000 860  3000
 Wire Wire Line
 	860  3000 860  2930
-Text Label 1440 3200 2    50   ~ 0
-D1TX
 $Comp
 L power:GND #PWR0106
 U 1 1 5F9E7A11
@@ -501,10 +497,6 @@ Text Label 9950 1900 2    50   ~ 0
 D3
 Text Label 9950 2000 2    50   ~ 0
 D2
-Text Label 9950 2100 2    50   ~ 0
-D1TX
-Text Label 9950 2200 2    50   ~ 0
-D0RX
 Text Label 9950 2300 2    50   ~ 0
 SCL
 Text Label 9950 2400 2    50   ~ 0
@@ -606,4 +598,12 @@ Text Notes 6780 670  0    50   ~ 0
 OUTPUTS\n
 Text Notes 8480 590  0    50   ~ 0
 PINS
+Text Label 9950 2100 2    50   ~ 0
+D1
+Text Label 9950 2200 2    50   ~ 0
+D0
+Text Label 1440 3200 2    50   ~ 0
+TX
+Text Label 870  1870 2    50   ~ 0
+RX
 $EndSCHEMATC
