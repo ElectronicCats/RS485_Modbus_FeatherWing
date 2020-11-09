@@ -24,23 +24,10 @@ F 3 "" H 4450 2580 50  0001 C CNN
 	1    4450 2580
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5FA0A2EE
-P 7410 2040
-F 0 "J3" H 7490 2032 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 7490 1941 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7410 2040 50  0001 C CNN
-F 3 "~" H 7410 2040 50  0001 C CNN
-	1    7410 2040
-	1    0    0    -1  
-$EndComp
 Text Label 7040 1980 2    50   ~ 0
 RS485B
 Text Label 7040 2260 2    50   ~ 0
 RS485A
-Wire Wire Line
-	7210 2140 7180 2140
 Wire Notes Line
 	470  3750 470  3720
 Wire Notes Line
@@ -382,8 +369,6 @@ Wire Wire Line
 Wire Wire Line
 	7040 1980 7070 1980
 Wire Wire Line
-	7180 2040 7210 2040
-Wire Wire Line
 	7140 2030 7140 1980
 Connection ~ 7140 1980
 Wire Wire Line
@@ -516,4 +501,19 @@ Wire Wire Line
 	7070 2500 7070 2570
 Wire Wire Line
 	6820 2570 7070 2570
+Wire Wire Line
+	7210 2140 7180 2140
+Wire Wire Line
+	7180 2040 7210 2040
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5FA0A2EE
+P 7410 2040
+F 0 "J3" H 7490 2032 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7490 1941 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7410 2040 50  0001 C CNN
+F 3 "~" H 7410 2040 50  0001 C CNN
+	1    7410 2040
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
