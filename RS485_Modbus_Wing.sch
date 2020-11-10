@@ -207,7 +207,7 @@ P 4450 2120
 F 0 "U1" H 4120 2620 50  0000 C CNN
 F 1 "SP3485EN" H 4160 2500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 1770 50  0001 C CIN
-F 3 "http://www.icbase.com/pdf/SPX/SPX00480106.pdf" H 4450 2120 50  0001 C CNN
+F 3 "https://www.mouser.mx/datasheet/2/146/sp3485-1816391.pdf" H 4450 2120 50  0001 C CNN
 	1    4450 2120
 	1    0    0    -1  
 $EndComp
