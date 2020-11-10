@@ -522,7 +522,8 @@ P 7410 2040
 F 0 "J3" H 7490 2032 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 7490 1941 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7410 2040 50  0001 C CNN
-F 3 "~" H 7410 2040 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ500V-5-08-2P-14-00A_C8465.html" H 7410 2040 50  0001 C CNN
+F 4 "WJ500V-5.08-2P" H 7410 2040 50  0001 C CNN "manf#"
 	1    7410 2040
 	1    0    0    -1  
 $EndComp
