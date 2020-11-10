@@ -207,7 +207,8 @@ P 4450 2120
 F 0 "U1" H 4120 2620 50  0000 C CNN
 F 1 "SP3485EN" H 4160 2500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 1770 50  0001 C CIN
-F 3 "https://www.mouser.mx/datasheet/2/146/sp3485-1816391.pdf" H 4450 2120 50  0001 C CNN
+F 3 "https://www.mouser.mx/ProductDetail/MaxLinear/SP3485CN-L-TR?qs=3EMgrMjM0fZL2ArUMUL9Gg%3D%3D" H 4450 2120 50  0001 C CNN
+F 4 "SP3485CN" H 4450 2120 50  0001 C CNN "manf#"
 	1    4450 2120
 	1    0    0    -1  
 $EndComp
@@ -237,7 +238,8 @@ P 3810 1570
 F 0 "R4" V 3680 1520 50  0000 L CNN
 F 1 "10K" V 3740 1500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3810 1570 50  0001 C CNN
-F 3 "~" H 3810 1570 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C99198.html" H 3810 1570 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 3810 1570 50  0001 C CNN "manf#"
 	1    3810 1570
 	1    0    0    -1  
 $EndComp
@@ -248,7 +250,8 @@ P 3600 1570
 F 0 "R3" V 3470 1520 50  0000 L CNN
 F 1 "10K" V 3540 1500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 1570 50  0001 C CNN
-F 3 "~" H 3600 1570 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C99198.html" H 3600 1570 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 3600 1570 50  0001 C CNN "manf#"
 	1    3600 1570
 	1    0    0    -1  
 $EndComp
@@ -259,7 +262,8 @@ P 3390 1570
 F 0 "R2" V 3260 1530 50  0000 L CNN
 F 1 "10K" V 3320 1510 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3390 1570 50  0001 C CNN
-F 3 "~" H 3390 1570 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C99198.html" H 3390 1570 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 3390 1570 50  0001 C CNN "manf#"
 	1    3390 1570
 	1    0    0    -1  
 $EndComp
@@ -270,7 +274,8 @@ P 3180 1570
 F 0 "R1" V 3010 1560 50  0000 L CNN
 F 1 "10K" V 3090 1490 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3180 1570 50  0001 C CNN
-F 3 "~" H 3180 1570 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-103-5_C99198.html" H 3180 1570 50  0001 C CNN
+F 4 "RC0603JR-0710KL" H 3180 1570 50  0001 C CNN "manf#"
 	1    3180 1570
 	1    0    0    -1  
 $EndComp
@@ -347,7 +352,8 @@ P 7070 1820
 F 0 "R5" V 6940 1770 50  0000 L CNN
 F 1 "20K" V 7000 1750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7070 1820 50  0001 C CNN
-F 3 "~" H 7070 1820 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0203T5E_C25586.html" H 7070 1820 50  0001 C CNN
+F 4 "0603WAJ0203T5E" H 7070 1820 50  0001 C CNN "manf#"
 	1    7070 1820
 	1    0    0    -1  
 $EndComp
@@ -358,7 +364,8 @@ P 7140 2130
 F 0 "R6" V 7010 2080 50  0000 L CNN
 F 1 "120" V 7070 2060 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7140 2130 50  0001 C CNN
-F 3 "~" H 7140 2130 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_120R-121-5_C103256.html" H 7140 2130 50  0001 C CNN
+F 4 "RTT03121JTP" H 7140 2130 50  0001 C CNN "manf#"
 	1    7140 2130
 	1    0    0    -1  
 $EndComp
@@ -411,7 +418,8 @@ P 5220 2880
 F 0 "C1" H 5312 2926 50  0000 L CNN
 F 1 "10uF" H 5312 2835 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5220 2880 50  0001 C CNN
-F 3 "~" H 5220 2880 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Others_YAGEO-CC0603KRX5R6BB106_C326057.html" H 5220 2880 50  0001 C CNN
+F 4 "CC0603KRX5R6BB106" H 5220 2880 50  0001 C CNN "manf#"
 	1    5220 2880
 	1    0    0    -1  
 $EndComp
@@ -422,7 +430,8 @@ P 5640 2890
 F 0 "C2" H 5732 2936 50  0000 L CNN
 F 1 "0.1uF" H 5732 2845 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5640 2890 50  0001 C CNN
-F 3 "~" H 5640 2890 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0603F104Z160CT_C387984.html" H 5640 2890 50  0001 C CNN
+F 4 "0603F104Z160CT" H 5640 2890 50  0001 C CNN "manf#"
 	1    5640 2890
 	1    0    0    -1  
 $EndComp
@@ -493,7 +502,8 @@ P 7070 2400
 F 0 "R7" V 6940 2320 50  0000 L CNN
 F 1 "20K" V 7000 2330 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7070 2400 50  0001 C CNN
-F 3 "~" H 7070 2400 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAJ0203T5E_C25586.html" H 7070 2400 50  0001 C CNN
+F 4 "0603WAJ0203T5E" H 7070 2400 50  0001 C CNN "manf#"
 	1    7070 2400
 	1    0    0    -1  
 $EndComp
