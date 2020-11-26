@@ -81,7 +81,7 @@ MOSI
 Text Label 8700 2100 0    50   ~ 0
 MISO
 Text Label 8700 2200 0    50   ~ 0
-RO
+RX
 Text Label 8700 2400 0    50   ~ 0
 FREE
 Text Label 9950 1300 2    50   ~ 0
@@ -300,11 +300,11 @@ Connection ~ 3390 1380
 Text Label 2980 2020 2    50   ~ 0
 RE
 Text Label 2990 1920 2    50   ~ 0
-RO
+RX
 Text Label 2990 2220 2    50   ~ 0
 DE
 Text Label 2970 2320 2    50   ~ 0
-DI
+TX
 Wire Wire Line
 	2990 1920 3180 1920
 Connection ~ 3180 1920
@@ -522,7 +522,7 @@ Wire Wire Line
 Text Label 9950 1900 2    50   ~ 0
 RE
 Text Label 8700 2300 0    50   ~ 0
-DI
+TX
 Text Label 9950 1700 2    50   ~ 0
 D12
 Text Label 9950 2000 2    50   ~ 0
