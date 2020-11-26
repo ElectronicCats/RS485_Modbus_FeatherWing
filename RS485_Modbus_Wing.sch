@@ -81,9 +81,7 @@ MOSI
 Text Label 8700 2100 0    50   ~ 0
 MISO
 Text Label 8700 2200 0    50   ~ 0
-RX
-Text Label 8700 2300 0    50   ~ 0
-TX
+RO
 Text Label 8700 2400 0    50   ~ 0
 FREE
 Text Label 9950 1300 2    50   ~ 0
@@ -94,18 +92,8 @@ Text Label 9950 1500 2    50   ~ 0
 VBUS
 Text Label 9950 1600 2    50   ~ 0
 D13
-Text Label 9950 1700 2    50   ~ 0
-DI
 Text Label 9950 1800 2    50   ~ 0
 DE
-Text Label 9950 1900 2    50   ~ 0
-RE
-Text Label 9950 2000 2    50   ~ 0
-RO
-Text Label 9950 2300 2    50   ~ 0
-SCL
-Text Label 9950 2400 2    50   ~ 0
-SDA
 Wire Wire Line
 	8700 900  8900 900 
 Wire Wire Line
@@ -143,21 +131,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 1600 9950 1600
 Wire Wire Line
-	9700 1700 9950 1700
-Wire Wire Line
 	9700 1800 9950 1800
 Wire Wire Line
-	9700 1900 9950 1900
-Wire Wire Line
 	9700 2000 9950 2000
-Wire Wire Line
-	9700 2100 9950 2100
-Wire Wire Line
-	9700 2200 9950 2200
-Wire Wire Line
-	9700 2300 9950 2300
-Wire Wire Line
-	9700 2400 9950 2400
 $Comp
 L power:+3.3V #PWR0114
 U 1 1 5D37877D
@@ -196,10 +172,6 @@ Text Notes 6780 670  0    50   ~ 0
 OUTPUTS\n
 Text Notes 8480 590  0    50   ~ 0
 PINS
-Text Label 9950 2100 2    50   ~ 0
-D6
-Text Label 9950 2200 2    50   ~ 0
-D5
 $Comp
 L Interface_UART:SP3485EN U1
 U 1 1 5FA9D85A
@@ -527,4 +499,32 @@ F 4 "WJ500V-5.08-2P" H 7410 2040 50  0001 C CNN "manf#"
 	1    7410 2040
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9700 2400 9950 2400
+Text Label 9950 2400 2    50   ~ 0
+SDA
+Wire Wire Line
+	9700 2300 9950 2300
+Text Label 9950 2300 2    50   ~ 0
+SCL
+Text Label 9950 2200 2    50   ~ 0
+D5
+Wire Wire Line
+	9700 2200 9950 2200
+Wire Wire Line
+	9700 2100 9950 2100
+Text Label 9950 2100 2    50   ~ 0
+D6
+Wire Wire Line
+	9700 1700 9950 1700
+Wire Wire Line
+	9700 1900 9950 1900
+Text Label 9950 1900 2    50   ~ 0
+RE
+Text Label 8700 2300 0    50   ~ 0
+DI
+Text Label 9950 1700 2    50   ~ 0
+D12
+Text Label 9950 2000 2    50   ~ 0
+D9
 $EndSCHEMATC
