@@ -179,7 +179,7 @@ P 4450 2120
 F 0 "U1" H 4120 2620 50  0000 C CNN
 F 1 "SP3485EN" H 4160 2500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 1770 50  0001 C CIN
-F 3 "https://www.mouser.mx/ProductDetail/MaxLinear/SP3485CN-L-TR?qs=3EMgrMjM0fZL2ArUMUL9Gg%3D%3D" H 4450 2120 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/RS-485-RS-422-ICs_MaxLinear-SP3485EN-L-TR_C8963.html" H 4450 2120 50  0001 C CNN
 F 4 "SP3485CN" H 4450 2120 50  0001 C CNN "manf#"
 	1    4450 2120
 	1    0    0    -1  
