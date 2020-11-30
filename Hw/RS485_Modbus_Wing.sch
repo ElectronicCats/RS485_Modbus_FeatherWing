@@ -92,7 +92,7 @@ Text Label 9950 1500 2    50   ~ 0
 VBUS
 Text Label 9950 1600 2    50   ~ 0
 D13
-Text Label 9950 1800 2    50   ~ 0
+Text Label 9950 1900 2    50   ~ 0
 DE
 Wire Wire Line
 	8700 900  8900 900 
@@ -519,7 +519,7 @@ Wire Wire Line
 	9700 1700 9950 1700
 Wire Wire Line
 	9700 1900 9950 1900
-Text Label 9950 1900 2    50   ~ 0
+Text Label 9950 1800 2    50   ~ 0
 RE
 Text Label 8700 2300 0    50   ~ 0
 TX
