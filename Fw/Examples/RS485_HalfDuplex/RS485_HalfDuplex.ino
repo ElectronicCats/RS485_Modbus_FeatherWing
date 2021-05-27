@@ -1,5 +1,15 @@
-#include <ModbusMaster.h>
+/*
+RS485_HalfDuplex
+  Andres Sabas @ Electronic Cats
+  Original Creation Date: May 27, 2021
+  Development environment specifics:
 
+  This code is beerware; if you see me (or any other Electronic Cats
+  member) at the local, and you've found our code helpful,
+  please buy us a round!
+  Distributed as-is; no warranty is given.
+*/
+#include <ModbusMaster.h>
 
 #define SP3485_DE      10
 #define SP3485_RE_NEG  11
